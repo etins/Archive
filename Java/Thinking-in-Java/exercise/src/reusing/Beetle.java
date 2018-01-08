@@ -1,3 +1,4 @@
+//: this is test initial order
 package reusing;
 
 import static net.mindview.util.Print.*;
@@ -11,7 +12,7 @@ class Insect {
     }
     private static int x1 =
             printInit("static Insect.x1 initialized");
-    static int printInit(String s) {
+    static int printInit(final String s) {
         print(s);
         return 47;
     }
@@ -25,11 +26,12 @@ public class Beetle extends Insect {
     }
     private static int x2 =
             printInit("static Bettle.x2 initialized");
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         print("Bettle constructor");
         Beetle b = new Beetle();
     }
-}/* Output:
+}
+/* Output:
 static Insect.x1 initialized
 static Bettle.x2 initialized
 Bettle constructor

@@ -23,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowScrollToSource>false</toolWindowScrollToSource>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>bowl1</find>
@@ -36,16 +39,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sort/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/initialization/PrimitiverOverloading.java" />
-        <option value="$PROJECT_DIR$/src/initialization/_3.java" />
-        <option value="$PROJECT_DIR$/src/initialization/_4.java" />
-        <option value="$PROJECT_DIR$/src/initialization/_5.java" />
-        <option value="$PROJECT_DIR$/src/initialization/_6.java" />
-        <option value="$PROJECT_DIR$/src/initialization/_7.java" />
-        <option value="$PROJECT_DIR$/src/initialization/_8.java" />
-        <option value="$PROJECT_DIR$/src/initialization/_9.java" />
-        <option value="$PROJECT_DIR$/src/initialization/_10.java" />
         <option value="$PROJECT_DIR$/src/initialization/_11.java" />
         <option value="$PROJECT_DIR$/src/initialization/_12.java" />
         <option value="$PROJECT_DIR$/src/initialization/StaticInitialization.java" />
@@ -86,7 +79,17 @@
         <option value="$PROJECT_DIR$/src/reusing/Frog.java" />
         <option value="$PROJECT_DIR$/src/reusing/FinalData.java" />
         <option value="$PROJECT_DIR$/src/reusing/FinalOverridingIllusion.java" />
+        <option value="$PROJECT_DIR$/src/polymorphism/_1.java" />
+        <option value="$PROJECT_DIR$/src/polymorphism/Shape/RandomShapeGenerator.java" />
+        <option value="$PROJECT_DIR$/src/polymorphism/Shape/Circle.java" />
+        <option value="$PROJECT_DIR$/src/polymorphism/Shape/Square.java" />
+        <option value="$PROJECT_DIR$/src/polymorphism/Shape/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/polymorphism/Shape/Shape.java" />
+        <option value="$PROJECT_DIR$/src/polymorphism/Shapes.java" />
+        <option value="$PROJECT_DIR$/src/polymorphism/music/Note.java" />
+        <option value="$PROJECT_DIR$/src/polymorphism/music3/Music3.java" />
         <option value="$PROJECT_DIR$/src/reusing/Beetle.java" />
+        <option value="$PROJECT_DIR$/src/polymorphism/ReferenceCounting.java" />
       </list>
     </option>
   </component>
@@ -96,7 +99,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="56" />
     <option name="y" value="61" />
     <option name="width" value="1400" />
@@ -117,7 +120,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -126,12 +130,29 @@
               <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercise" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="polymorphism" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="polymorphism" type="462c0819:PsiDirectoryNode" />
+              <item name="ReferenceCounting.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,6 +162,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -162,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Beetle">
+  <component name="RunManager" selected="Application.ReferenceCounting">
     <configuration name="Beetle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -201,14 +223,52 @@
       <module name="exercise" />
       <envs />
     </configuration>
-    <configuration name="Frog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Music3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="reusing.*" />
+          <option name="PATTERN" value="polymorphism.music3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="reusing.Frog" />
+      <option name="MAIN_CLASS_NAME" value="polymorphism.music3.Music3" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="exercise" />
+      <envs />
+    </configuration>
+    <configuration name="ReferenceCounting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="polymorphism.ReferenceCounting" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="exercise" />
+      <envs />
+    </configuration>
+    <configuration name="Shapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="polymorphism.Shapes" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -239,44 +299,6 @@
       <module name="exercise" />
       <envs />
     </configuration>
-    <configuration name="SpaceShip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="reusing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="reusing.SpaceShip" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="exercise" />
-      <envs />
-    </configuration>
-    <configuration name="Wind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="reusing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="reusing.Wind" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="exercise" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -293,19 +315,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SpaceShip" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Wind" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Frog" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FinalData" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Beetle" />
+      <item index="0" class="java.lang.String" itemvalue="Application.FinalData" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Beetle" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Shapes" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Music3" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReferenceCounting" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Beetle" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FinalData" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Frog" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Wind" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SpaceShip" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ReferenceCounting" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Beetle" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Music3" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Shapes" />
+        <item index="4" class="java.lang.String" itemvalue="Application.FinalData" />
       </list>
     </recent_temporary>
   </component>
@@ -336,11 +358,12 @@
       <workItem from="1515157468575" duration="5962000" />
       <workItem from="1515332867304" duration="11294000" />
       <workItem from="1515381056608" duration="700000" />
+      <workItem from="1515417579593" duration="7815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60558000" />
+    <option name="totallyTimeSpent" value="68373000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,22 +375,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="61" width="1400" height="1067" extended-state="1" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43899658" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3148358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31356898" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17948718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18454936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -378,9 +405,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4394111" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -425,76 +450,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/initialization/_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/initialization/_6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/initialization/_7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/initialization/_8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/initialization/_9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/initialization/_10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/initialization/_11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/initialization/_13.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/initialization/StaticInitialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/initialization/_12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/initialization/_15.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
@@ -686,10 +641,10 @@
         <state relative-caret-position="307">
           <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           <folding>
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="false" />
+            <element signature="e#1091#1092#0" expanded="false" />
+            <element signature="e#1121#1122#0" expanded="false" />
+            <element signature="e#1161#1162#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -699,10 +654,10 @@
         <state relative-caret-position="220">
           <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding>
-            <element signature="e#42#43#0" expanded="true" />
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#42#43#0" expanded="false" />
+            <element signature="e#92#93#0" expanded="false" />
+            <element signature="e#267#268#0" expanded="false" />
+            <element signature="e#291#292#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -712,8 +667,8 @@
         <state relative-caret-position="44">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
           <folding>
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -723,8 +678,8 @@
         <state relative-caret-position="505">
           <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           <folding>
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -734,10 +689,10 @@
         <state relative-caret-position="638">
           <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
           <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#89#90#0" expanded="false" />
+            <element signature="e#130#131#0" expanded="false" />
+            <element signature="e#412#413#0" expanded="false" />
+            <element signature="e#449#450#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -747,12 +702,12 @@
         <state relative-caret-position="308">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <element signature="e#44#45#0" expanded="true" />
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#44#45#0" expanded="false" />
+            <element signature="e#105#106#0" expanded="false" />
+            <element signature="e#124#125#0" expanded="false" />
+            <element signature="e#199#200#0" expanded="false" />
+            <element signature="e#244#245#0" expanded="false" />
+            <element signature="e#267#268#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -762,22 +717,22 @@
         <state relative-caret-position="673">
           <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
           <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="false" />
+            <element signature="e#221#222#0" expanded="false" />
+            <element signature="e#283#284#0" expanded="false" />
+            <element signature="e#322#323#0" expanded="false" />
+            <element signature="e#359#360#0" expanded="false" />
+            <element signature="e#398#399#0" expanded="false" />
+            <element signature="e#438#439#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+            <element signature="e#516#517#0" expanded="false" />
+            <element signature="e#555#556#0" expanded="false" />
+            <element signature="e#593#594#0" expanded="false" />
+            <element signature="e#633#634#0" expanded="false" />
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#701#702#0" expanded="false" />
+            <element signature="e#736#737#0" expanded="false" />
+            <element signature="e#773#774#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -795,12 +750,12 @@
         <state relative-caret-position="66">
           <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
           <folding>
-            <element signature="e#60#61#0" expanded="true" />
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#60#61#0" expanded="false" />
+            <element signature="e#116#117#0" expanded="false" />
+            <element signature="e#153#154#0" expanded="false" />
+            <element signature="e#177#178#0" expanded="false" />
+            <element signature="e#257#258#0" expanded="false" />
+            <element signature="e#307#308#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -810,10 +765,10 @@
         <state relative-caret-position="396">
           <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding>
-            <element signature="e#71#72#0" expanded="true" />
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#71#72#0" expanded="false" />
+            <element signature="e#97#98#0" expanded="false" />
+            <element signature="e#122#123#0" expanded="false" />
+            <element signature="e#164#165#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -823,13 +778,13 @@
         <state relative-caret-position="563">
           <caret line="40" column="45" lean-forward="false" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#130#131#0" expanded="false" />
+            <element signature="e#156#157#0" expanded="false" />
+            <element signature="e#290#291#0" expanded="false" />
+            <element signature="e#318#319#0" expanded="false" />
+            <element signature="e#752#753#0" expanded="false" />
+            <element signature="e#821#822#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -839,14 +794,14 @@
         <state relative-caret-position="308">
           <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
-            <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#106#107#0" expanded="false" />
+            <element signature="e#145#146#0" expanded="false" />
+            <element signature="e#168#169#0" expanded="false" />
+            <element signature="e#207#208#0" expanded="false" />
+            <element signature="e#510#511#0" expanded="false" />
+            <element signature="e#557#558#0" expanded="false" />
+            <element signature="e#579#580#0" expanded="false" />
+            <element signature="e#625#626#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -856,17 +811,155 @@
         <state relative-caret-position="440">
           <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="false" />
+            <element signature="e#307#308#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polymorphism/_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding>
+            <element signature="e#78#79#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polymorphism/Shape/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polymorphism/Shape/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polymorphism/Shape/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polymorphism/Shape/RandomShapeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polymorphism/Shapes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polymorphism/music/Note.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polymorphism/music3/Music3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1506#1507#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reusing/Beetle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        <state relative-caret-position="330">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polymorphism/ReferenceCounting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polymorphism/Shape/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
