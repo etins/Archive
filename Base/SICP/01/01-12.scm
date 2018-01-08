@@ -1,0 +1,7 @@
+(define (Pascal row col)
+    (cond ((> col row)
+            (error "unvalid col value"))
+          ((or (= col 0) (= row col))
+            1)
+          (else (+ (Pascal (- row 1) (- col 1))
+                    (Pascal (- row 1) col)))))
