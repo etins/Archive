@@ -1,0 +1,6 @@
+# ide project files
+.idea
+.vs
+
+# Java
+Java/Thinking-in-Java/exercise/out
