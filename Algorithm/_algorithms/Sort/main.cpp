@@ -15,7 +15,7 @@ int main() {
 	int *arr3 = SortTestHelper::copyIntArray(arr, n);
 	SortTestHelper::testSort("Quick Sort", quickSort, arr, n);
 	SortTestHelper::testSort("Merge Sort", mergeSort, arr2, n);
-	SortTestHelper::testSort("Quick Sort3", quickSort3, arr3, n);
+	//SortTestHelper::testSort("Quick Sort3", quickSort3, arr3, n);
 
     delete[] arr;
 	delete[] arr2;
