@@ -9,9 +9,9 @@
 | deadlien  | progress  |  compete? |
 |---|---|---|
 | 2018/01/14  |  chapter 3 |  ok  |
-| 2018/01/21  |  chapter 4 |  todo  |
-| 2018/01/28  |  chapter 5 |  todo  |
-| 2018/02/04  |  chapter 6 |  todo  |
+| 2018/01/21  |  chapter 4 |  ok  |
+| 2018/01/28  |  chapter 5 |  ok  |
+| 2018/02/04  |  chapter 6 |  ok  |
 | 2018/02/11  |  chapter 7 |  todo  |
 | 2018/02/18  |  chapter 8 |  todo  |
 | 2018/02/25  |  chapter 9 |  todo  |
